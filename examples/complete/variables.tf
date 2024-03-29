@@ -48,6 +48,7 @@ variable "resource_number" {
 
 variable "region" {
   description = "AWS Region in which the infra needs to be provisioned"
+  type        = string
   default     = "eastus"
 }
 
@@ -75,12 +76,6 @@ variable "tags" {
   description = "(Optional) A mapping of tags which should be assigned to the Storage Account."
   type        = map(string)
   default     = {}
-}
-
-variable "naming_prefix" {
-  description = "Prefix for the provisioned resources."
-  type        = string
-  default     = "platform"
 }
 
 variable "managed_by" {
