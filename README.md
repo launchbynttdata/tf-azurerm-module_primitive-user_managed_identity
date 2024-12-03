@@ -106,7 +106,7 @@ If `make check` target is successful, developer is good to commit the code to pr
 
 | Name | Version |
 |------|---------|
-| <a name="provider_azurerm"></a> [azurerm](#provider\_azurerm) | 3.116.0 |
+| <a name="provider_azurerm"></a> [azurerm](#provider\_azurerm) | 3.117.0 |
 
 ## Modules
 
@@ -134,4 +134,5 @@ No modules.
 | <a name="output_client_id"></a> [client\_id](#output\_client\_id) | Client\_id of the User assigned identity resource |
 | <a name="output_principal_id"></a> [principal\_id](#output\_principal\_id) | Principal\_Id of the User assigned identity resource |
 | <a name="output_tenant_id"></a> [tenant\_id](#output\_tenant\_id) | Tenant\_Id of the User assigned identity resource |
+| <a name="output_name"></a> [name](#output\_name) | Name of the User assigned identity resource |
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
