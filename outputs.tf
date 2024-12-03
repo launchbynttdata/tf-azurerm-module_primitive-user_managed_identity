@@ -17,3 +17,8 @@ output "tenant_id" {
   description = "Tenant_Id of the User assigned identity resource"
   value       = azurerm_user_assigned_identity.main.tenant_id
 }
+
+output "name" {
+  description = "Name of the User assigned identity resource"
+  value       = azurerm_user_assigned_identity.main.name
+}

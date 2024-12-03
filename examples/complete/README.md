@@ -46,4 +46,6 @@ No resources.
 | <a name="output_id"></a> [id](#output\_id) | n/a |
 | <a name="output_principal_id"></a> [principal\_id](#output\_principal\_id) | n/a |
 | <a name="output_client_id"></a> [client\_id](#output\_client\_id) | n/a |
+| <a name="output_tenant_id"></a> [tenant\_id](#output\_tenant\_id) | n/a |
+| <a name="output_name"></a> [name](#output\_name) | n/a |
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
