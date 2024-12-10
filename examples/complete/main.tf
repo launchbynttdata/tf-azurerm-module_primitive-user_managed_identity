@@ -42,7 +42,7 @@ module "user_assigned_identity" {
   resource_group_name         = module.resource_group.name
   location                    = var.region
   user_assigned_identity_name = module.resource_names["msi"].minimal_random_suffix
+  tags                        = local.tags
 
   depends_on = [module.resource_group]
-
 }
