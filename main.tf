@@ -3,4 +3,5 @@ resource "azurerm_user_assigned_identity" "main" {
   location            = var.location
 
   name = var.user_assigned_identity_name
+  tags = var.tags
 }

@@ -125,6 +125,7 @@ No modules.
 | <a name="input_resource_group_name"></a> [resource\_group\_name](#input\_resource\_group\_name) | name of the target resource group resource mask | `string` | n/a | yes |
 | <a name="input_location"></a> [location](#input\_location) | (Required) The Azure Region where the Resource Group. | `string` | n/a | yes |
 | <a name="input_user_assigned_identity_name"></a> [user\_assigned\_identity\_name](#input\_user\_assigned\_identity\_name) | name of user identity | `string` | n/a | yes |
+| <a name="input_tags"></a> [tags](#input\_tags) | A mapping of tags to assign to the resource | `map(string)` | `{}` | no |
 
 ## Outputs
 

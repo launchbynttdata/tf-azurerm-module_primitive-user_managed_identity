@@ -73,7 +73,7 @@ variable "resource_names_map" {
 }
 
 variable "tags" {
-  description = "(Optional) A mapping of tags which should be assigned to the Storage Account."
+  description = "(Optional) A mapping of tags which should be assigned to the identity."
   type        = map(string)
   default     = {}
 }
