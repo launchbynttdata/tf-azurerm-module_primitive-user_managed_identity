@@ -99,14 +99,8 @@ If `make check` target is successful, developer is good to commit the code to pr
 
 | Name | Version |
 |------|---------|
-| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | ~> 1.0 |
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.5.0, < 2.0 |
 | <a name="requirement_azurerm"></a> [azurerm](#requirement\_azurerm) | >= 3.77, < 5.0 |
-
-## Providers
-
-| Name | Version |
-|------|---------|
-| <a name="provider_azurerm"></a> [azurerm](#provider\_azurerm) | 4.73.0 |
 
 ## Modules
 
@@ -122,18 +116,18 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_resource_group_name"></a> [resource\_group\_name](#input\_resource\_group\_name) | name of the target resource group resource mask | `string` | n/a | yes |
 | <a name="input_location"></a> [location](#input\_location) | (Required) The Azure Region where the Resource Group. | `string` | n/a | yes |
-| <a name="input_user_assigned_identity_name"></a> [user\_assigned\_identity\_name](#input\_user\_assigned\_identity\_name) | name of user identity | `string` | n/a | yes |
+| <a name="input_resource_group_name"></a> [resource\_group\_name](#input\_resource\_group\_name) | name of the target resource group resource mask | `string` | n/a | yes |
 | <a name="input_tags"></a> [tags](#input\_tags) | A mapping of tags to assign to the resource | `map(string)` | `{}` | no |
+| <a name="input_user_assigned_identity_name"></a> [user\_assigned\_identity\_name](#input\_user\_assigned\_identity\_name) | name of user identity | `string` | n/a | yes |
 
 ## Outputs
 
 | Name | Description |
 |------|-------------|
-| <a name="output_id"></a> [id](#output\_id) | Id of the User assigned identity resource |
 | <a name="output_client_id"></a> [client\_id](#output\_client\_id) | Client\_id of the User assigned identity resource |
+| <a name="output_id"></a> [id](#output\_id) | Id of the User assigned identity resource |
+| <a name="output_name"></a> [name](#output\_name) | Name of the User assigned identity resource |
 | <a name="output_principal_id"></a> [principal\_id](#output\_principal\_id) | Principal\_Id of the User assigned identity resource |
 | <a name="output_tenant_id"></a> [tenant\_id](#output\_tenant\_id) | Tenant\_Id of the User assigned identity resource |
-| <a name="output_name"></a> [name](#output\_name) | Name of the User assigned identity resource |
 <!-- END_TF_DOCS -->
